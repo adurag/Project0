@@ -1,0 +1,141 @@
+/* BASIC STYLES */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+  color: rgb(3, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+/* NAV BAR */
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+
+#left_nav_bar li {
+  display: inline-block;
+  padding: 8px;
+  margin-top: 10px;
+}
+#nav_bar #sign_in {
+  background: #040a14; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+  
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#sign_in:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+  color: #fff;
+}
+
+/* GOOGLE AREA */
+.google #google_logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  
+  
+}
+
+.form {
+  text-align: center;
+  padding-bottom: 360px;
+  padding-top: 10px;
+  
+}
+
+#form-search { 
+  width: 560px;
+  line-height: 32px;
+  padding: 20px 10px;
+  border-radius:20px
+}
+.form #form-search {
+  padding: 2 28px;
+  margin-bottom: 5px;
+}
+
+/*#form-search:hover {
+  border-color: #e4e4e4;
+  padding-top: 0;
+}*/
+
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 200px;
+}
+
+/* FOOTER */
+footer  {
+  background: #555454;
+  border-top: solid 2px #e4e4e4;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+  margin-bottom: 0px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
